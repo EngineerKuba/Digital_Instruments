@@ -9,3 +9,13 @@ Sensors used:
   - HC-SR04 - Ultrasonic Sensor
   - AFBR-S50MV85G - Time-of-Flight Sensor Module for Distance and Motion Measurement
 
+Servo:
+  - 2x SG 90
+
+Goal:
+Integrate all the sensors in one system. 
+
+This project aims to build a ‘robot’ of sorts, with a limited number of functions. Mostly, the result will be a proof of concept, attempting to make several different sensors and motors, interface and work with a microcontroller. The goal is to have a device able to do some sort of sweep of an area, and output the distance from a light and an ultrasonic sensor, while at the same time having access to information about its movement from the gyroscopes, accelerometer and magnetometer. 
+Ultimately, integrating all of the systems into the functionality of the device would be preferable, but this must be regarded as a secondary priority. 
+
+## Theoretical introduction
